@@ -39,7 +39,7 @@ if(elForm){
         let li = createEl('li', 'border py-2 px-4')
         let h3 = createEl('h3', 'text-blue-500 font-bold', upH3)
         let p = createEl('p', '', upP)
-        let p2 = createEl('p', '', elTelInput.value)
+        let p2 = createEl('p', '',  elTelInput.value)
 
         li.appendChild(h3)
         li.appendChild(p)
